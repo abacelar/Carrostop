@@ -1,0 +1,16 @@
+.btn-icon {
+    width: 220px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  
+  .btn-icon:hover {
+    color: #fff;
+  }
+  
+  .btn-icon h6 {
+    font-size: 14px;
+    margin-top: 5px;
+  }
