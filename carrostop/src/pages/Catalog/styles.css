@@ -1,0 +1,42 @@
+
+
+.card-container {
+    padding: 10px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    min-height: 86px;
+    padding: 20px;
+}
+
+.search-card {
+    overflow: auto;
+    height: 40px;
+    width: 100%;
+}
+
+.search-card input {
+    border: transparent;
+    border-radius: 5px 0 0 5px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.btn-container button {
+    border-radius: 0 5px 5px 0;
+}
+
+@media (min-width:576px) {
+    .btn-container button {
+        width: 174px;
+    }
+    
+    .search-container {
+        min-height: 123px;
+        margin-bottom: 20px;
+    }
+
+}

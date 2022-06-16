@@ -1,12 +1,11 @@
-import Navbar from '../../components/Navbar';
 import './styles.css';
 import Maincar from '../../assets/images/maincar2.png';
 import ButtonIcon from '../../components/ButtonIcon';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       <div className="home-container">
         <div className="card-container">
           <div className="bg-info home-main-container">
@@ -25,7 +24,9 @@ const Home = () => {
 
             <div className="base-card botton-container">
               <p>Comece a navegar agora</p>
+              <Link to="/products">
               <ButtonIcon />
+              </Link>
             </div>
 
         </div>
